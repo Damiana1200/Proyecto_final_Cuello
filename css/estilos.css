@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&family=Roboto+Condensed:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&family=Roboto+Condensed:wght@300;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 15px;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: white;
+}
+
+#logo {
+  display: inline-flex;
+  align-self: center;
+  background-color: white;
+  width: 200px;
+  height: 200px;
+}
+
+.indexcontenedor {
+  background-color: black;
+  height: 100%;
+}
+
+.indexcontenedor #carouselExampleDark {
+  color: white;
+  display: inline-block;
+  align-items: center;
+  justify-self: center;
+  width: 50%;
+  height: 50px;
+  margin: 50px 25%;
+}
+
+.carousel h5, p {
+  color: white;
+}
+
+.tarjetas h5, .tarjetas p {
+  color: black;
+}
+
+.tarjetas .card {
+  margin: 50px;
+  width: 30%;
+}
+
+.tarjetas .card:hover {
+  transform: scale(1.1);
+}
+
+.titulolugares {
+  color: black;
+  font-size: 3rem;
+  padding: .5em;
+}
+
+.contenedorformulario {
+  background-image: url("../assets/foto1.jpg");
+  background-position: center;
+  background-size: cover;
+  margin: 20px;
+  border: 10px solid;
+  padding: 15px;
+}
+
+.contenedorformulario .formulario {
+  margin: 50px;
+  padding: 10px;
+  width: 30%;
+}
+
+.contenidoquienes {
+  background-color: black;
+  margin: 20px;
+  border: 10px solid;
+  padding: 15px;
+  height: 150vh;
+}
+
+.contenidoquienes p {
+  font-size: 1.5rem;
+  padding: 15px;
+}
+
+.contenidoquienes img {
+  padding: 20px;
+  height: 500px;
+}
+
+.contenidoquienes .tituloquienes, .contenidoquienes .subtituloquienes {
+  background-color: black;
+  font-size: 3rem;
+  padding: .5em;
+}
+
+.contenidoquienes .subtituloquienes {
+  color: pink;
+}
+
+.contenidolugares {
+  color: black;
+  margin: 20px;
+  padding: 20px;
+}
+
+.contenidolugares p {
+  color: black;
+  margin: 5px;
+}
+
+.contenidolugares img {
+  height: 300px;
+  margin: 10px;
+}
+
+#footer {
+  background-image: black;
+  color: black;
+}
+
+#footer img {
+  height: 100px;
+  width: 100px;
+}
+
+#footer .mb-2 {
+  font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  #logo {
+    display: none;
+  }
+  .contenidoquienes img {
+    display: none;
+  }
+  .contenidolugares p, img {
+    display: none;
+  }
+}
